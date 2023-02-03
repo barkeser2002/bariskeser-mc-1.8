@@ -1,0 +1,93 @@
+
+# Eagler Context Redacted Diff
+# Copyright (c) 2023 lax1dude. All rights reserved.
+
+# Version: 1.0
+# Author: lax1dude
+
+> CHANGE  17 : 21  @  17 : 24
+
+~ eaglercraft.recording.unsupported=Kayıt Yapma Desteklenmiyor
+~ eaglercraft.recording.stop=Kayıdı Durdur
+~ eaglercraft.recording.start=Kayıt Yap...
+~ eaglercraft.soundCategory.voice=Voice
+
+> INSERT  1 : 68  @  1
+
++ eaglercraft.resourcePack.prompt.title='%s' ile ne yapmak istiyorsunuz?
++ eaglercraft.resourcePack.prompt.text=İpucu: Bir kaynak paketi seçerken bu ekranı atlamak için Shift tuşunu basılı tutun!
++ eaglercraft.resourcePack.prompt.delete=Bu kaynak paketini sil
++ eaglercraft.resourcePack.prompt.add=Bu kaynak paketini seçin
++ eaglercraft.resourcePack.load.refreshing=Kaynaklar Yenileniyor...
++ eaglercraft.resourcePack.load.pleaseWait=Lütfen bekleyin.
++ eaglercraft.resourcePack.load.loading=Kaynak paketi yükleniyor...
++ eaglercraft.resourcePack.load.deleting=Kaynak paketi siliniyor...
++ 
++ eaglercraft.gui.exitKey=Bu ekranı kapatmak için '%s' kullanın!
++ eaglercraft.gui.exitKeyRetarded=Bu ekranı kapatmak için Geri Tik'i (`) kullanın!
++ 
++ eaglercraft.menu.forkOnGitlab=Yapımcı Sayfası
++ eaglercraft.menu.editProfile=Profili Düzenle
++ 
++ eaglercraft.editProfile.title=Profili Düzenle
++ eaglercraft.editProfile.username=Kullanıcı adı
++ eaglercraft.editProfile.playerSkin=Oyuncu Görünümü
++ eaglercraft.editProfile.addSkin=Dış Görünüm Ekle
++ eaglercraft.editProfile.clearSkin=Listeyi Sil
++ 
++ eaglercraft.addServer.SSLWarn1=bir https: sayfasındasınız!
++ eaglercraft.addServer.SSLWarn2=html5 yalnızca wss://'ye izin verir
++ 
++ eaglercraft.chat.exit=Sohbetten Çık
++ 
++ eaglercraft.handshakeApprove.plaintext.title=Protokol Uyarısı
++ 
++ eaglercraft.handshakeApprove.plaintext.body.0=§eBu sunucunun 3. taraf oturum açma sistemi,
++ eaglercraft.handshakeApprove.plaintext.body.1=§eGüvenli olmayan düz metin şifreli oturum açmayı kullanma
++ 
++ eaglercraft.handshakeApprove.plaintext.body.3=Bu, şifrenizin çalınabileceği anlamına gelir
++ eaglercraft.handshakeApprove.plaintext.body.4=bu sunucuyu kimin çalıştırdığı ve ayrıca
++ eaglercraft.handshakeApprove.plaintext.body.5=ona bağlanmak için kullandığınız herhangi bir proxy
++ 
++ eaglercraft.handshakeApprove.plaintext.body.7=§7Devam etmek istiyor musunuz?
++ 
++ eaglercraft.handshakeApprove.unsupportedAuth.title=Protokol Desteklenmiyor
++ 
++ eaglercraft.handshakeApprove.unsupportedAuth.body.0=§cBu sunucunun oturum açma sistemi bir
++ eaglercraft.handshakeApprove.unsupportedAuth.body.1=§cprotocol bu müşteri tarafından desteklenmiyor
++ 
++ eaglercraft.handshakeApprove.unsupportedAuth.body.3=kullandığınızdan emin olun.
++ eaglercraft.handshakeApprove.unsupportedAuth.body.4=Bariskeser-mc'in en son sürümü veya
++ eaglercraft.handshakeApprove.unsupportedAuth.body.5=bu sunucu için yapılmış başka bir çatal
++ 
++ eaglercraft.options.hud.fps=FPS'yi göster
++ eaglercraft.options.hud.coords=XYZ'yi göster
++ eaglercraft.options.hud.stats=İstatistik Gösterge Panelini Göster
++ eaglercraft.options.hud.world=Dünya HUD'sini göster
++ eaglercraft.options.hud.player=Oyuncuyu Göster
++ eaglercraft.options.hud.note=XYZ'yi gizleme seçeneği için 'Video Ayarları'nı kontrol edin
++ eaglercraft.options.hud.24h=24S gün
++ eaglercraft.options.chunkFix=Chunk Gecikmesi Düzeltme
++ eaglercraft.options.fog=Sis
++ eaglercraft.options.fxaa=FXAA Kenar Yumuşatma
++ eaglercraft.options.fxaa.auto=Otomatik
++ 
++ eaglercraft.key.function=Fonksiyon
++ eaglercraft.key.zoomCamera=Yakınlaştır
++ eaglercraft.key.close=Ekranı Kapat
++ 
++ eaglercraft.disconnect.tooManyRequests=Çok fazla istek!
++ 
++ eaglercraft.auth.required=Kimlik Doğrulaması Gerekli
++ eaglercraft.auth.continue=Sunucuya katıl
++ 
+
+> CHANGE  468 : 469  @  468 : 469
+
+~ resourcePack.openFolder=Kaynak paketini aç
+
+> CHANGE  3 : 4  @  3 : 4
+
+~ resourcePack.folderInfo=(Burada kaynak paketi dosyalarını seçin)
+
+> EOF
