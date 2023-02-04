@@ -21,15 +21,6 @@
 					alert("HTTP lütfen, bu dosyayı yerel olarak açmayın, yerel bir HTTP sunucusu çalıştırın ve HTTP yoluyla yükleyin");
 				}else {
 					var opts = window.eaglercraftXOpts;
-					
-					window.eaglercraftXOpts = {
-						container: "game_frame",
-						assetsURI: "assets.epk",
-						localesURI: "lang/",
-						servers: [
-							{ addr: "ws://ip.bariskeser:8888/", name: "Herkese Açık Sunucumuz" }
-						]
-					};
 
 					if(typeof opts === "function") window.eaglercraftXOpts = opts = opts();
 					if(typeof opts === "undefined") window.eaglercraftXOpts = opts = {};
